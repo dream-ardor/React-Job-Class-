@@ -31,16 +31,16 @@ class Form extends Component {
 
         return (
             <form>
-                <label for ="name">Name</label>
+                <label for ="name1">Name</label>
                 <input
-                     id="name"
+                     id="name1"
                     type="text"
                     name="name"
                     value={name}
                     onChange={this.handleChange} />
-                <label for ="name">Job</label>
+                <label for ="job1">Job</label>
                 <input
-                      id="name"
+                      id="job1"
                     type="text"
                     name="job"
                     value={job}

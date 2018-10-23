@@ -31,13 +31,13 @@ class Form extends Component {
 
         return (
             <form>
-                <label for "name">Name</label>
+                <label for ="name">Name</label>
                 <input
                     type="text"
-                    name="name" 
+                    name="name"
                     value={name}
                     onChange={this.handleChange} />
-                <label for "name">Job</label>
+                <label for ="name">Job</label>
                 <input
                     type="text"
                     name="job"

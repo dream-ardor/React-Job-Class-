@@ -30,3 +30,11 @@
     transform: rotate(360deg);
   }
 }
+tbody {
+  color: blue;
+  text-shadow: 1px 1px fuchsia;
+}
+
+table{
+  background-color: whitesmoke;
+}

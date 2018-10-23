@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class Form extends Component {
     constructor(props) {
         super(props);
-        
+
         this.initialState = {
             name: '',
             job: ''
@@ -27,25 +27,25 @@ class Form extends Component {
     }
 
     render() {
-        const { name, job } = this.state; 
+        const { name, job } = this.state;
 
         return (
             <form>
-                <label>Name</label>
-                <input 
-                    type="text" 
+                <label for "name">Name</label>
+                <input
+                    type="text"
                     name="name" 
-                    value={name} 
+                    value={name}
                     onChange={this.handleChange} />
-                <label>Job</label>
-                <input 
-                    type="text" 
-                    name="job" 
-                    value={job} 
+                <label for "name">Job</label>
+                <input
+                    type="text"
+                    name="job"
+                    value={job}
                     onChange={this.handleChange}/>
-                <input 
-                    type="button" 
-                    value="Submit" 
+                <input
+                    type="button"
+                    value="Submit"
                     onClick={this.submitForm} />
             </form>
         );
